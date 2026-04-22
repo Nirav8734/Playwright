@@ -10,4 +10,4 @@ test('test', async ({ page }) => {
     await page.locator('//input[@id="ap_password"]').fill('8734986314');
     await page.locator('//input[@id="signInSubmit"]').click();
 
-})
+}) 
